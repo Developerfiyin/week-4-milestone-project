@@ -11,8 +11,7 @@ print("Hint:", hint)
 
 # Keep asking for guesses
 while True:
-    guess = input("What is your guess? ").lower()
-    guess_count += 1
+    guess = input("What is your guess?
 
     # Check the length
     if len(guess) != len(secret_word):
