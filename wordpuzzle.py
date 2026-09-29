@@ -19,7 +19,7 @@ while True:
         print("Your guess must have", len(secret_word), "letters.")
         continue
 
-    # Create the hint
+    
     hint = ""
 
     for i in range(len(secret_word)):
